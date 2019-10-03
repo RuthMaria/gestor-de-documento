@@ -1,0 +1,7 @@
+1. Logar como root: mysql -u root -p;
+2. Criar banco de dados documentacao: create databases documentacao;
+3. Criar usuário painter: CREATE USER 'painter'@'localhost' IDENTIFIED BY 'painter';
+4. Conceder todos os privilegios ao banco de dados documentacao: GRANT ALL PRIVILEGES ON documentacao.* TO 'painter'@'localhost';
+5. Recarregar privilegios: FLUSH PRIVILEGES;
+6. sair do mysql: quit;
+7. logar novamente com o usuario painter: mysql -u painter -p;
